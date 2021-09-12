@@ -1,0 +1,10 @@
+int pow_matrix(matrix *result, matrix *mat, int pow) {
+  if (pow == 1)
+    result = mat;
+    return 0;
+  if (pow == 2)
+    return mul_matrix (result, mat, mat)
+  copy result temp
+  pow_matrix(temp, mat, pow-1)
+  return mul_matrix(result, temp, mat)
+}
